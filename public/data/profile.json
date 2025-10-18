@@ -1,0 +1,84 @@
+{
+  "name": "Anil Chandrakant Kengar",
+  "role": "Logic meets creativity - full-stack development with Anil.",
+  "tagline": "I build clean, responsive, fast web experiences and robust full-stack apps.",
+  "email": "anilkengar646@gmail.com",
+  "phone": "+91 9119549299",
+  "location": "Bengaluru, Karnataka , IN",
+  "resume": "/resume/resume_AnilKengar_2025.pdf",
+  "social": {
+    "github": "https://github.com/ANilKengar28",
+    "linkedin": "https://www.linkedin.com/in/anil-kengar-22067a276/"
+  },
+
+  "skills": {
+  "Frontend": [
+    ["React JS", 75],
+    ["JavaScript", 65],
+    ["HTML/CSS/Bootstrap", 70]
+  ],
+  "Backend": [
+    ["Java (Spring Boot)", 75]
+  ],
+ 
+  "Databases": [
+    ["MySQL", 75],
+    ["MongoDB", 65]
+  ],
+
+  "Tools": [
+    ["Git & GitHub", 70],
+    ["Postman", 75],
+   
+    ["Figma / Design Basics", 60]
+  ]
+},
+
+  "about": "PG-DAC (Feb'25) grad with hands-on experience building full-stack solutions and responsive UIs. Comfortable across React , MySQL, JavaScript, and Java. I enjoy turning requirements into polished, practical products.",
+
+ 
+  "education": [
+    {
+      "level": "PG-DAC",
+      "stream": "Advanced Computing",
+      "institute": "CDAC Bangalore ",
+      "board": "ACTS",
+      "year": "2025",
+      "percent": "62.7%"
+    },
+    {
+      "level": "B.Tech",
+      "stream": "Mechanical Engineering",
+      "institute": "KIT's College Of Engineering Kolhapur",
+      "board": "Shivaji University",
+      "year": "2024",
+      "percent": "7.22 CGPI"
+    },
+    {
+      "level": "Diploma ",
+      "stream": "Mechanical Engineering",
+      "institute": "Walchand College Of Engineering",
+      "board": "MSBTE, Mumbai",
+      "year": "2021",
+      "percent": "90.05%"
+    },
+    {
+      "level": "X (SSC)",
+      "stream": "General",
+      "institute": "Sangli Highschool Sangli",
+      "board": "Maharashtra State Board",
+      "year": "2018",
+      "percent": "72.19%"
+    }
+  ],
+
+  "certifications": [
+    "Full Stack Java Developer — Simplilearn",
+    "FULL STACK DEVELOPMENT WITH REACT & NODE JS — GeeksforGeeks"
+  ],
+
+  "extra": {
+    "conference": "International Conference on Technology Innovation & Application in Industry 4.0 — paper on ‘How Can Companies Utilize Generative AI for Operations’",
+    "hobbies": ["Traveling", "Reading Book", "Playing Chess"]
+  }
+}

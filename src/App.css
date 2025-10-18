@@ -1,0 +1,38 @@
+:root{
+  --bg:#0b0f17; --panel:#101625; --muted:#9aa4b2; --text:#e8eef6;
+  --brand:#4ea8ff; --brand2:#7c8cff;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.container{max-width:1140px;margin:0 auto;padding:0 16px}
+.section{padding:64px 0}
+.h2{font-size:28px;font-weight:800;margin:0 0 18px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:12px;font-weight:600}
+.btn-primary{background:var(--brand);color:#0b0f17}
+.btn-outline{border:1px solid rgba(255,255,255,.15)}
+.nav{position:sticky;top:0;backdrop-filter:blur(8px);background:rgba(0,0,0,.3);border-bottom:1px solid rgba(255,255,255,.08);z-index:10}
+.nav .row{display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav ul{list-style:none;display:flex;gap:20px;padding:0;margin:0}
+.nav a{padding:14px 8px;color:#cfd7e6}
+.nav a:hover{color:#fff}
+
+.hero{position:relative;padding:96px 0;
+  background:radial-gradient(900px 500px at 20% -10%, rgba(78,168,255,.15), transparent),
+             radial-gradient(900px 500px at 80% -10%, rgba(124,140,255,.15), transparent)}
+.hero-inner{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:56px;line-height:1.05;margin:0 0 12px}
+.hero .tag{color:var(--muted);margin-bottom:18px}
+.card{background:var(--panel);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:24px}
+
+.skills .item{margin-bottom:14px}
+.skills .bar{height:10px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden}
+.skills .bar>span{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand2))}
+
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.proj img{width:100%;height:160px;object-fit:cover;border-radius:12px}
+
+.contact form{display:grid;gap:12px}
+input,textarea{background:#0e1422;color:#e8eef6;border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px}
+
+@media (max-width:900px){.hero-inner{grid-template-columns:1fr}}

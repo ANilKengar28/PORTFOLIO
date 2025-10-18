@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Online Recruitment System",
+    "desc": "Web platform to automate the hiring lifecycle: job posting → screening → scheduling → offer. Role-based dashboards, resume filtering, secure auth, admin-user profile management, and responsive UI.",
+    "stack": ["ReactJS", "Spring Boot", "MySQL"],
+    "url": "https://github.com/AnilKengar/CDAC_FinalProject.git",
+    "image": "./projects/Or.png"
+  },
+  {
+    "title": "Smart Packing System",
+    "desc": "I designed and implemented a Smart Parking System using the C programming language to efficiently manage parking spaces using real-time sensor data. The system detects and displays available parking spots, helping reduce traffic congestion and optimize space utilization within parking facilities.",
+    "stack": ["C"],
+   
+    "image": "./projects/Pa.png"}
+ 
+]
